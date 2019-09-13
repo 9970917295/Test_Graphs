@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="4" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="9" time="0.057902">
+<testcase classname="Test Admin details" name="check admin details" time="0.056211">
+<system-out><![CDATA[Given open Admin_deatils Page...............................................passed
+When click on Admin_Info button.............................................passed
+Then should redirect to Admin Info page.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Home_page" name="test functionality of Home_page" time="0.000044">
+<system-out><![CDATA[Given open login Page.......................................................passed
+And enter login credentials.................................................passed
+When click on login.........................................................passed
+Then should redirect Home page..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Client Info" name="check client details" time="0.000381">
+<failure message="org.testng.SkipException: skipped&#13;&#10;&#9;at com.Test.EO.StepDefinitions.should_redirect_to_client_Info_page(StepDefinitions.java:113)&#13;&#10;&#9;at ✽.Then should redirect to client Info page(client_info.feature:8)&#13;&#10;"><![CDATA[Given open Client_deatils Page..............................................passed
+When click on client_Info button............................................passed
+Then should redirect to client Info page....................................failed
+
+StackTrace:
+org.testng.SkipException: skipped
+	at com.Test.EO.StepDefinitions.should_redirect_to_client_Info_page(StepDefinitions.java:113)
+	at ✽.Then should redirect to client Info page(client_info.feature:8)
+]]></failure>
+</testcase>
+<testcase classname="Test company details" name="check company details" time="0.000053">
+<system-out><![CDATA[Given open company_deatils Page.............................................passed
+When click on company_Info button...........................................passed
+Then should redirect to company Info page...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test customer details" name="check customer details" time="0.000654">
+<failure message="java.lang.AssertionError: expected [true] but found [false]&#13;&#10;&#9;at org.testng.Assert.fail(Assert.java:96)&#13;&#10;&#9;at org.testng.Assert.failNotEquals(Assert.java:776)&#13;&#10;&#9;at org.testng.Assert.assertTrue(Assert.java:44)&#13;&#10;&#9;at org.testng.Assert.assertTrue(Assert.java:54)&#13;&#10;&#9;at com.Test.EO.StepDefinitions.should_redirect_to_customer_Info_page(StepDefinitions.java:56)&#13;&#10;&#9;at ✽.Then should redirect to customer Info page(customerInfo.feature:8)&#13;&#10;"><![CDATA[Given open customer_deatils Page............................................passed
+When click on customer_Info button..........................................passed
+Then should redirect to customer Info page..................................failed
+
+StackTrace:
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at com.Test.EO.StepDefinitions.should_redirect_to_customer_Info_page(StepDefinitions.java:56)
+	at ✽.Then should redirect to customer Info page(customerInfo.feature:8)
+]]></failure>
+</testcase>
+<testcase classname="Test emp details" name="check emp details" time="0.000229">
+<failure message="java.lang.AssertionError: expected [toni] but found [tonny]&#13;&#10;&#9;at org.testng.Assert.fail(Assert.java:96)&#13;&#10;&#9;at org.testng.Assert.failNotEquals(Assert.java:776)&#13;&#10;&#9;at org.testng.Assert.assertEqualsImpl(Assert.java:137)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:118)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:453)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:463)&#13;&#10;&#9;at com.Test.EO.StepDefinitions.should_redirect_to_emp_Info_page(StepDefinitions.java:84)&#13;&#10;&#9;at ✽.Then should redirect to emp Info page(employee_details.feature:8)&#13;&#10;"><![CDATA[Given open emp_deatils Page.................................................passed
+When click on emp_Info button...............................................passed
+Then should redirect to emp Info page.......................................failed
+
+StackTrace:
+java.lang.AssertionError: expected [toni] but found [tonny]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.Test.EO.StepDefinitions.should_redirect_to_emp_Info_page(StepDefinitions.java:84)
+	at ✽.Then should redirect to emp Info page(employee_details.feature:8)
+]]></failure>
+</testcase>
+<testcase classname="Test Product Info" name="check Product details" time="0.000065">
+<system-out><![CDATA[Given open Product_deatils Page.............................................passed
+When click on Product_Info button...........................................passed
+Then should redirect to Product Info page...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test student details" name="check student details" time="0.000092">
+<system-out><![CDATA[Given open student_deatils Page.............................................passed
+When click on student_Info button...........................................passed
+Then should redirect to student Info page...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test user details" name="check user details" time="0.000173">
+<failure message="org.testng.SkipException: skipped&#13;&#10;&#9;at com.Test.EO.StepDefinitions.should_redirect_to_user_Info_page(StepDefinitions.java:41)&#13;&#10;&#9;at ✽.Then should redirect to user Info page(user_Info.feature:8)&#13;&#10;"><![CDATA[Given open user_deatils Page................................................passed
+When click on user_Info button..............................................passed
+Then should redirect to user Info page......................................failed
+
+StackTrace:
+org.testng.SkipException: skipped
+	at com.Test.EO.StepDefinitions.should_redirect_to_user_Info_page(StepDefinitions.java:41)
+	at ✽.Then should redirect to user Info page(user_Info.feature:8)
+]]></failure>
+</testcase>
+</testsuite>
